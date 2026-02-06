@@ -3,20 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
 
 <div id="header"></div>
 <div id="nav"></div>
 
-<div class="container">
 
+<section id="contact" class="contact-section">
+    <h2>Contact</h2>
 
+    <div class="contact-grid">
 
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <p><i class="fas fa-user"></i> Amit Kumar Singh</p>
+            <p><i class="fas fa-briefcase"></i> Assistant Professor</p>
+            <p><i class="fas fa-building-columns"></i> Department of ECE</p>
+            <p><i class="fas fa-university"></i> XYZ University</p>
 
+            <p>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:amit.singh@university.edu">
+                    amit.singh@university.edu
+                </a>
+            </p>
 
+            <p><i class="fas fa-location-dot"></i> Room 214, Academic Block–II</p>
 
-</div>
+            <p>
+                <i class="fas fa-globe"></i>
+                <a href="https://akjiitbhu.github.io/webpage/" target="_blank">
+                    Personal Website
+                </a>
+            </p>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5"
+                          placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+    </div>
+</section>
 
 <div id="footer"></div>
 
