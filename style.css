@@ -94,9 +94,10 @@ footer {
 }
 
 .contact-section {
-    min-height: 100vh;              /* Full page height */
+    min-height: 1000vh;              /* Full page height */
     display: flex;
     align-items: center;            /* Vertical center */
     justify-content: center;        /* Horizontal center */
 }
+
 
