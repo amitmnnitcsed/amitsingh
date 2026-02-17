@@ -119,6 +119,60 @@ button:hover{background:#bfa46f;color:#000}
 iframe{width:100%;height:100%;border:0}
 
 
+/* ===== WORK EXPERIENCE ===== */
+
+.experience-item {
+    border-left: 5px solid #bfa46f;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    background: #fafafa;
+    transition: 0.2s;
+}
+
+.experience-item:hover {
+    background: #f0f4fa;
+    transform: translateX(5px);
+}
+
+.experience-item h3 {
+    margin: 0;
+    color: #002147;
+}
+
+.org {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.date {
+    color: #555;
+    font-style: italic;
+    margin-top: 3px;
+}
+
+.duration {
+    margin-top: 5px;
+}
+/* ===== MEMBERSHIP SECTION ===== */
+.membership-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.membership-list li {
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    background: #fafafa;
+    border-left: 5px solid #bfa46f; /* gold accent */
+    border-bottom: 1px solid #ddd;
+    transition: 0.2s;
+}
+
+.membership-list li:hover {
+    background: #f0f4fa;
+    transform: translateX(4px);
+}
+
 
 
 
