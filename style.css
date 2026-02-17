@@ -93,11 +93,8 @@ footer {
     margin: 40px 0 20px;
 }
 
-.contact-section {
-    min-height: 1000vh;              /* Full page height */
-    display: flex;
-    align-items: center;            /* Vertical center */
-    justify-content: center;        /* Horizontal center */
-}
 
+
+.map{width:100%;height:220px;border-radius:12px;overflow:hidden;margin-top:15px}
+iframe{width:100%;height:100%;border:0}
 
