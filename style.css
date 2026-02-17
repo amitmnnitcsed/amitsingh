@@ -172,6 +172,44 @@ iframe{width:100%;height:100%;border:0}
     background: #f0f4fa;
     transform: translateX(4px);
 }
+/* ===== STUDY MATERIAL ===== */
+.material {
+    margin-bottom: 25px;
+}
+
+.material h3 {
+    background: #002147;
+    color: white;
+    padding: 8px 12px;
+    font-size: 18px;
+}
+
+.material ul {
+    list-style: none;
+    padding-left: 0;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.material li {
+    padding: 10px 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.material li:last-child {
+    border-bottom: none;
+}
+
+.material a {
+    text-decoration: none;
+    color: #002147;
+}
+
+.material a:hover {
+    color: #bfa46f;
+    text-decoration: underline;
+}
+
 
 
 
