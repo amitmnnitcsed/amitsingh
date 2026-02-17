@@ -1,0 +1,103 @@
+/* ===== GLOBAL RESET ===== */
+body {
+    margin: 0;
+    font-family: "Times New Roman", Georgia, serif;
+    background-color: #f4f4f4;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+header {
+    background-color: #002147; /* University Blue */
+    color: #ffffff;
+    padding: 25px 10px;
+    border-bottom: 5px solid #bfa46f; /* Gold accent */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 16px;
+}
+
+/* ===== NAVIGATION ===== */
+nav {
+    background-color: #e6e6e6;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #002147;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== MAIN CONTENT ===== */
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.08);
+}
+
+/* ===== PROFILE ===== */
+.profile {
+    display: flex;
+    gap: 30px;
+}
+
+.profile img {
+    width: 180px;
+    border: 1px solid #ccc;
+}
+
+.profile-info h2 {
+    margin-top: 0;
+    color: #002147;
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+    color: #002147;
+    border-bottom: 2px solid #bfa46f;
+    padding-bottom: 5px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    margin: 40px 0 20px;
+}
+
+.contact-section {
+    min-height: 1000vh;              /* Full page height */
+    display: flex;
+    align-items: center;            /* Vertical center */
+    justify-content: center;        /* Horizontal center */
+}
+
+
