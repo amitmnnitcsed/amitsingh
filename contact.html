@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact Us</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Poppins',sans-serif}
+body{background:linear-gradient(135deg,#0f172a,#1e3a8a);min-height:100vh;color:#fff;display:flex;align-items:center;justify-content:center;padding:30px}
+.card{background:rgba(255,255,255,0.08);backdrop-filter:blur(14px);border-radius:18px;padding:30px;box-shadow:0 10px 30px rgba(0,0,0,.3)}
+h2{margin-bottom:20px;font-weight:600}
+.info-item{margin-bottom:18px}
+.info-item span{display:block;color:#cbd5e1;font-size:14px}
+form input,form textarea{width:100%;padding:12px 14px;margin-bottom:14px;border:none;border-radius:10px;background:rgba(255,255,255,.12);color:#fff}
+form input::placeholder,form textarea::placeholder{color:#cbd5e1}
+button{background:#38bdf8;border:none;padding:12px 20px;border-radius:10px;color:#000;font-weight:600;cursor:pointer;transition:.25s}
+button:hover{transform:translateY(-2px);background:#22d3ee}
+.map{width:100%;height:220px;border-radius:12px;overflow:hidden;margin-top:15px}
+iframe{width:100%;height:100%;border:0}
+@media(max-width:850px){.container{grid-template-columns:1fr}}
+</style>
+    
    
 </head>
 <body>
@@ -12,18 +29,35 @@
 <div id="header"></div>
 <div id="nav"></div>
 
-    <div class="contact-section">
-        <!-- Contact Info -->
-        <div class="contact-info">
-            <p><i class="fas fa-user"></i> Amit Kumar Singh</p>
-            <p><i class="fas fa-briefcase"></i> Research Scholar</p>
-            <p><i class="fas fa-building-columns"></i> Department of CSE</p>
-            <p><i class="fas fa-university"></i> MNNIT Allahabad, Prayagraj</p>
-            <p><i class="fas fa-envelope"></i>amit.2021rcs02@mnnit.ac.in </p>
-            <p><i class="fas fa-location-dot"></i> Networking Lab</p>
-            <p><i class="fas fa-location-dot"></i> First Floor Department of CSED, MNNIT Allahabad, Prayagraj</p>
+<div class="container">
 
-        </div>
+<div class="card">
+<h2>Contact Information</h2>
+<div class="info-item"><strong>Name</strong><span>Dr. Amit Kumar Singh</span></div>
+<div class="info-item"><strong>Email</strong><span>amit201000@gmail.com</span></div>
+<div class="info-item"><strong>Phone</strong><span>+91 9559986811</span></div>
+<div class="info-item"><strong>Department</strong><span>Computer Science & Engineering</span></div>
+<div class="info-item"><strong>Institution</strong><span>MNNIT Allahabad, Prayagraj</span></div>
+
+<div class="map">
+<iframe src="https://maps.google.com/maps?q=MNNIT%20Allahabad&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</div>
+</div>
+
+<div class="card">
+<h2>Send a Message</h2>
+<form action="https://formspree.io/f/yourformid" method="POST">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<input type="text" name="subject" placeholder="Subject" required>
+<textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+<button type="submit">Send Message</button>
+</form>
+</div>
+
+</div>
+    
+   
 
 
 
