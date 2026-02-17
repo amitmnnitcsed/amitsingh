@@ -79,7 +79,7 @@ nav a:hover {
 }
 
 /* ===== HEADINGS ===== */
-.h2 {
+h2 {
     color: #002147;
     border-bottom: 2px solid #bfa46f;
     padding-bottom: 5px;
@@ -91,7 +91,7 @@ nav a:hover {
 .contact-item strong{display:block;color:#002147}
 
 /* ===== FOOTER ===== */
-.footer {
+footer {
     text-align: center;
     font-size: 14px;
     color: #555;
@@ -172,6 +172,7 @@ iframe{width:100%;height:100%;border:0}
     background: #f0f4fa;
     transform: translateX(4px);
 }
+
 
 
 
