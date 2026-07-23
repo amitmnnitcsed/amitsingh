@@ -4,6 +4,40 @@
     <meta charset="UTF-8">
     <title>Mr. Amit Kumar Singh | Faculty</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .about-section {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+        }
+        
+        .about-text {
+            flex: 1;
+        }
+        
+        .about-image {
+            flex-shrink: 0;
+        }
+        
+        .about-image img {
+            width: 250px;
+            height: 300px;
+            border-radius: 8px;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        @media (max-width: 768px) {
+            .about-section {
+                flex-direction: column;
+            }
+            
+            .about-image img {
+                width: 200px;
+                height: 250px;
+            }
+        }
+    </style>
 </head>
 <body>
 
@@ -13,17 +47,25 @@
     <div class="container">
         <h2>About</h2>
 
-        <p>
-        I am <b>Amit Kumar Singh</b>, an academician and researcher in the field of Computer Science and Engineering, with a strong interest in modern computer networks, programmable data planes, and intelligent network monitoring systems. My work primarily focuses on networking problems, especially in areas such as flow identification, in-band network telemetry, and performance analysis of next-generation networks.
-        </p>
+        <div class="about-section">
+            <div class="about-text">
+                <p>
+                I am <b>Amit Kumar Singh</b>, an academician and researcher in the field of Computer Science and Engineering, with a strong interest in modern computer networks, programmable data planes, [...]
+                </p>
 
-        <p>
-        I actively explore emerging technologies including Software Defined Networking (SDN), Network Function Virtualization (NFV), and 5G systems, and I enjoy building practical lab environments using virtualization platforms and Linux-based tools to support both research and teaching activities.
-        </p>
+                <p>
+                I actively explore emerging technologies including Software Defined Networking (SDN), Network Function Virtualization (NFV), and 5G systems, and I enjoy building practical lab environments usi[...]
+                </p>
 
-        <p>
-        As a teacher, I believe in learning by implementation. I regularly develop study material, lab demonstrations, and hands-on exercises to help students understand complex networking and system concepts in a simple and practical manner. My goal is to bridge the gap between theoretical concepts and real-world deployment.
-        </p>
+                <p>
+                As a teacher, I believe in learning by implementation. I regularly develop study material, lab demonstrations, and hands-on exercises to help students understand complex networking and system [...]
+                </p>
+            </div>
+            
+            <div class="about-image">
+                <img src="profile.jpg" alt="Amit Kumar Singh - Profile Picture">
+            </div>
+        </div>
     </div>
 
       <div class="container">
@@ -44,7 +86,7 @@ I am always interested in collaboration, student mentoring, and research discuss
 
     </div>
     
-    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="368375d1-6ab0-4139-b603-6cb17834b574" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="368375d1-6ab0-4139-b603-6cb17834b574" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript">[...]
 
 </div>
 
@@ -53,12 +95,3 @@ I am always interested in collaboration, student mentoring, and research discuss
 <script src="include.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
